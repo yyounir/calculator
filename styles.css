@@ -454,6 +454,8 @@ p
 	transition-duration: 0.4s;
 	cursor: pointer;
 	animation: fadeIn .5s;
+	background-color: #c3f3e6;
+	border-radius: 10px;
 }
 
 .header-left a:hover {
@@ -619,7 +621,7 @@ span.ripple {
 	border-radius: 30px;
 	float: inline-start;
 	width: 70px;
-	padding-top: 20px;
+	padding-top: 15px;
 	padding-left: 5px;
 }
 
