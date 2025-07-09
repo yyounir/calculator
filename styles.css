@@ -269,6 +269,34 @@ p
 	background-color: #94f7dc;
 }
 
+.action-drawer-button-tonal {	
+	font-family: nunito;
+	padding: 12px;
+	background-color:#c3f3e6;
+	margin: auto;
+	text-align: left;
+	border-radius: 100px;
+	float: none;
+	color: #08684e;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	position: relative;	
+	text-decoration: none;
+	font-size: 14pt;
+}
+
+.action-drawer-button-tonal a {
+	text-decoration: none;
+	color: #08684e;
+	transition-duration: 0.4s;
+	display: block;
+	font-size: 13pt;
+}
+
+.action-drawer-button-tonal:hover {
+	background-color: #94f7dc;
+}
+
 .action-button-tonal {
 	padding: 13px;
 	background-color:#c3f3e6;
