@@ -831,7 +831,7 @@ span.ripple {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     text-align: left;
 	cursor: default;
-	animation: fadeIn .25s;
+	animation: zoomIn 0.2s ease-out forwards;
 }
 
 .close {
@@ -1009,7 +1009,8 @@ body {
     z-index: 1000;
 	padding: 10px;
 	text-align: left;
-	animation: fadeIn .20s;
+	animation: fadeIn .15s;
+	margin-top: 30px;
   
 }
 
@@ -1059,6 +1060,7 @@ body {
 		justify-content: center;
 		align-items: center;
 		cursor: default;
+		animation: fadeIn .25s;
 	}
 
 	.popup-content {
@@ -1074,7 +1076,17 @@ body {
 		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 		text-align: left;
 		cursor: default;
-		animation: fadeIn .25s;
+		
 	}
 
 }
+@keyframes zoomIn {
+            from {
+                transform: scale(0.5);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
