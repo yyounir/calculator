@@ -1060,7 +1060,6 @@ body {
 		justify-content: center;
 		align-items: center;
 		cursor: default;
-		animation: fadeIn .25s;
 	}
 
 	.popup-content {
