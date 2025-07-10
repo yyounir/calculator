@@ -492,11 +492,13 @@ p
 	cursor: pointer;
 	animation: fadeIn .5s;
 	background-color: #c3f3e6;
-	border-radius: 10px;
+	border-radius: 50px;
 }
 
 .header-left a:hover {
 	background-color: #94f7dc;
+	padding-right: 10px;
+	padding-left: 10px;
 	border-radius: 50px;
 }
 
@@ -515,10 +517,13 @@ p
 	margin-left: 2px;
 	transition-duration: 0.4s;
 	cursor: pointer;	
+	border-radius: 50px;
 }
 
 .header-right a:hover {
 	background-color: #94f7dc;
+	padding-right: 10px;
+	padding-left: 10px;
 	border-radius: 50px;
 }
 
@@ -758,16 +763,19 @@ span.ripple {
     top: 0;
     left: -400px;
     width: 300px;
-    height: 100%;
     background-color: white;
     color: #08684e;
     transition: left 0.3s;
-	transition-duration: 0.4s;
-	border-top-right-radius: 20px;
-	border-bottom-right-radius: 20px;
+	transition-duration: 0.4s;	
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 	padding-left: 10px;
-	padding-right:10px;	
+	padding-right:10px;		
+
+	border-radius: 25px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+    height: 98.8%;
 }
 
 .drawer-nav ul {
@@ -798,14 +806,24 @@ span.ripple {
 	border-radius: 100px;
 }
 
+.drawer-top-left a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	
+}
+
 .drawer-top-left a:hover {
 	background-color: #94f7dc;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
 	cursor: pointer;
-	animation: fadeIn .5s;
+	animation: fadeIn .25s;
 }
-
 
 /* Pop-ups */
 
