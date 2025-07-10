@@ -16,7 +16,7 @@ function toggleMenu() {
 function toggleDrawer() {
     const drawerNav = document.querySelector('.drawer-nav');
     if (drawerNav.style.left === '0px') {
-        drawerNav.style.left = '-300px';
+        drawerNav.style.left = '-600px';
     } else {
         drawerNav.style.left = '0px';
     }
