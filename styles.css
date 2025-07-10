@@ -798,6 +798,14 @@ span.ripple {
 	border-radius: 100px;
 }
 
+.drawer-top-left a:hover {
+	background-color: #94f7dc;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	cursor: pointer;
+	animation: fadeIn .5s;
+}
+
 
 /* Pop-ups */
 
