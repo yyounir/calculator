@@ -164,13 +164,6 @@ p
 	color: #08684e;	
 }
 
-#logo {
-	max-width: 500px;
-	float: left;
-	padding-left: 3px;
-	animation: fadeIn .5s;
-}
-
 #logo-home {
 	max-width: 500px;
 	float: left;
@@ -605,19 +598,6 @@ span.ripple {
 	'opsz' 24;
 }
 
-/* Media and Responsive Pages */
-@media screen and (max-width: 500px) {
-	header a {
-	  float: none;
-	  display: block;
-	  text-align: left;
-	}
-	
-	.header-right {
-		float: none;
-	}
-}
-
 /* Rows & Columns */
 .column-button {
 	border-radius: 30px;
@@ -861,58 +841,6 @@ span.ripple {
 	z-index: 100;
 }
 
-/*Menu Popups*/
-body {
-    font-family: nunito;
-}
-
-.context-menu-container {
-    width: 300px;
-    height: 200px;
-    border: 1px solid #ccc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px auto;
-    position: relative;
-}
-
-.context-menu {
-    display: none;
-    position: fixed;
-    background-color: #cafbed;
-	border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-	text-decoration: none;
-	text-align: left;
-}
-
-.context-menu ul {
-    list-style-type: none;
-    padding: 10px;
-    margin: 0;
-}
-
-.context-menu li {
-    padding: 10px 20px;
-    cursor: pointer;
-	text-decoration: none;	
-}
-
-.context-menu a {
-	text-decoration: none;
-	text-align: left;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-.context-menu li:hover {
-    background-color: #94f7dc;
-	border-radius: 10px;
-
-}
-
 
 
 /* Rows and Columns */
@@ -1075,7 +1003,6 @@ body {
 		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 		text-align: left;
 		cursor: default;
-		
 	}
 
 }
