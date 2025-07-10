@@ -208,6 +208,8 @@ p
 .action-button-filled:hover {
 	background-color: #08684e;
 	color: white;
+	padding-right: 16px;
+	padding-left:16px;
 }
 
 .action-button-unfilled {	
@@ -236,18 +238,25 @@ p
 .action-button-unfilled:hover {
 	background-color: #94f7dc;
 	color: #08684e;
+	padding-right: 16px;
+	padding-left:16px;
 }
 
 .action-drawer-button-unfilled {	
 	font-family: nunito;
 	padding: 12px;
 	text-align: left;
-	border-radius: 1px;
+	border-radius: 100px;
+	float: none;
 	color: #08684e;
 	transition-duration: 0.4s;
 	cursor: pointer;
+	position: relative;	
+	text-decoration: none;
 	font-size: 14pt;
-	
+
+	display: flex;
+	justify-content: left;
 }
 
 .action-drawer-button-unfilled a {
@@ -276,6 +285,8 @@ p
 	position: relative;	
 	text-decoration: none;
 	font-size: 14pt;
+	display: flex;
+	justify-content: left;
 }
 
 .action-drawer-button-tonal a {
@@ -318,6 +329,8 @@ p
 
 .action-button-tonal:hover {
 	background-color: #94f7dc;
+	padding-right: 16px;
+	padding-left:16px;
 }
 
 .action-button-tonal-card {
@@ -351,6 +364,8 @@ p
 
 .action-button-tonal-card:hover {
 	background-color: #94f7dc;
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
 
 .action-button-outlined {
@@ -751,6 +766,8 @@ span.ripple {
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+	padding-left: 10px;
+	padding-right:10px;	
 }
 
 .drawer-nav ul {
@@ -766,15 +783,18 @@ span.ripple {
 
 .drawer-nav a {
     color: #08684e;
-    text-decoration: none;
 	padding: 10px;
-	text-align: left;
-	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: -15px;
+	text-align: left;	
 }
 
 .drawer-nav a:hover {
     background-color: #94f7dc;
 	padding: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	border-radius: 100px;
 }
 
@@ -958,8 +978,11 @@ span.ripple {
 }
 
 .dropdown-content a:hover {
+	padding-top: 15px;
+	padding-bottom: 15px;
 	background-color: #94f7dc;
 	border-radius: 25px;
+	
 }
 
 .dropdown:hover .dropdown-content {
