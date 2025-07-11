@@ -71,10 +71,6 @@ header a.active {
 	color: white;
 }
 
-header img {
-	width: 35%;
-}
-
 img {
 	max-width: auto;
 	display: block;
@@ -165,9 +161,14 @@ p
 }
 
 #logo-home {
-	max-width: 500px;
+	max-width: 200px;
 	float: left;
+	display: inline;
 	padding-left: 10px;
+}
+
+header img {
+	width: 100%;
 }
 
 #settings-icon {
