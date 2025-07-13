@@ -339,8 +339,7 @@ header img {
 	padding-bottom: 3px;
 	padding-left: 13px;
 	padding-right: 13px;
-	background-color:#c3f3e6;
-		
+	background-color:#c3f3e6;		
 	margin-bottom: 8px;
 	width: auto;
 	border-radius: 20px;
@@ -859,6 +858,7 @@ span.ripple {
     text-align: left;
 	cursor: default;
 	animation: zoomIn 0.2s ease-out forwards;
+	overflow-y: auto;
 }
 
 .close {
