@@ -812,6 +812,7 @@ span.ripple {
 	padding-right: 10px;
 	padding-left: 10px;
 	padding-top: 10px;
+	animation: fadeIn .25s;
 	
 }
 
@@ -822,7 +823,7 @@ span.ripple {
 	padding-right: 15px;
 	padding-left: 15px;
 	cursor: pointer;
-	animation: fadeIn .25s;
+	
 }
 
 /* Pop-ups */
